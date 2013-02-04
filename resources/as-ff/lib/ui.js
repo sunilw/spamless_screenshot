@@ -314,30 +314,7 @@ function init(capture) {
 	  	contentURL: data.url("options.html"),
 		width: 590, height: 420,
 		contentScriptWhen: 'ready',
-		contentScriptFile: data.url('js/options-content.js'),
-		// port: function(worker) {
-		// 	worker.on('message', function(message) {
-		// 		console.log(message.name);
-		// 		switch(message.name) {
-		// 		case 'reset_options':
-		// 			initOptions();
-		// 			break;
-		// 		case 'save_options':
-		// 			storage.options = message.data;
-		// 			if(message.data.superfish) storage.ads.superfish=1;
-		// 			else storage.ads.superfish=0;
-		// 			worker.postMessage({name:message.name, data:''});
-		// 			break;
-		// 		case 'close_panel':
-		// 			ui.closePanel();
-		// 			// console.log(message.data);
-		// 			break;
-		// 		case 'getoption':
-		// 			worker.postMessage({name:'sendoption',data:storage.options});
-		// 			break
-		// 		}
-		// 	});
-		// }
+		contentScriptFile: data.url('js/options-content.js')
 	});
 
 	optionsPanel.port.on("message",function(message){
