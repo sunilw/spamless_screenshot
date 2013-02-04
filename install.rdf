@@ -18,11 +18,10 @@
     </em:targetApplication>
 
     <!-- Front End MetaData -->
-    <em:name>Awesome screenshot: Capture and Annotate</em:name>
-    <em:description>Capture the whole page or any portion, annotate it with rectangles, circles, arrows, lines and text, blur sensitive info, one-click upload to share.</em:description>
+    <em:name>Spamless Screenshot</em:name>
+    <em:description>Capture and annotate pages from the
+    browser. Without having your browser hijacked</em:description>
     <em:creator>Sunil Williams</em:creator>
-    
-    
     
   </Description>
 </RDF>
